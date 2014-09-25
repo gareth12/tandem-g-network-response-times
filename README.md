@@ -6,7 +6,7 @@ This code seeks to implement the results from
 
 This paper computes the [Laplace–Stieltjes transform](https://en.wikipedia.org/wiki/Laplace%E2%80%93Stieltjes_transform) of the response time distribution in a tandem [G-network](https://en.wikipedia.org/wiki/G-network) with two nodes. The parameters for the model are the positive arrival rates at each node (``l1p`` and ``l2p``) the negative arrival rates at each node (``l1n`` and ``l2n``) and the service rates at each of the two nodes (``m1`` and ``m2``).
 
-NOTE: The current implementation of the code works correctly in the annulus R<sub>L_e\L</sub> ∩ R<sub>C</sub> only, and not in R<sub>L</sub>.
+NOTE: The current implementation of the code works correctly in the annulus R<sub>L<sub>e</sub>\L</sub> ∩ R<sub>C</sub> only, and not in R<sub>L</sub>.
 
 The value of the transform W*(s) at s (for positive s) can be computed using the function
 
