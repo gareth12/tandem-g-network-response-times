@@ -32,7 +32,7 @@ Wstar[0.001, 3, 2, 0, 2, 2, 1]
 0.166163
 ```
 
-This correctly computes the probability that a customer will not be killed (maximal value of the [CDF](https://en.wikipedia.org/wiki/Cumulative_distribution_function)) as it is in the annulus region. From this we can numerically approximate the mean response time (conditional on not being killed) using small values of ``s``.
+This correctly computes the probability that a customer will not be killed (maximal value of the [CDF](https://en.wikipedia.org/wiki/Cumulative_distribution_function)) as it is in the annulus region. From this we can numerically approximate the mean response time (conditional on not being killed) [using small values of ``s``](https://en.wikipedia.org/wiki/Laplace%E2%80%93Stieltjes_transform#Probability_distributions).
 
 ```
 -(Wstar[0.002,3,2,0,2,2,1]-Wstar[0.001,3,2,0,2,2,1])/0.001
