@@ -4,9 +4,9 @@ Tandem G-network response times
 This code seeks to implement the results from
 * *[Response Time Distributions in Tandem G-Networks](http://www.jstor.org/stable/3214932)* by  Peter G. Harrison and Edwige Pitel, Journal of Applied Probability, Vol. 32, No. 1, Mar., 1995 pp. 224-246.
 
-This paper computes the [Laplace–Stieltjes transform](https://en.wikipedia.org/wiki/Laplace%E2%80%93Stieltjes_transform) of the response time distribution in a tandem [G-network](https://en.wikipedia.org/wiki/G-network) with two nodes. The parameters for the model are the positive arrival rates at each node (l1p and l2p) the negative arrival rates at each node (l1n and l2n) and the service rates at each of the two nodes (m1 and m2).
+This paper computes the [Laplace–Stieltjes transform](https://en.wikipedia.org/wiki/Laplace%E2%80%93Stieltjes_transform) of the response time distribution in a tandem [G-network](https://en.wikipedia.org/wiki/G-network) with two nodes. The parameters for the model are the positive arrival rates at each node (``l1p`` and ``l2p``) the negative arrival rates at each node (``l1n`` and ``l2n``) and the service rates at each of the two nodes (``m1`` and ``m2``).
 
-NOTE: The current implementation of the code works correctly in the annulus (R_{L_e\L} intersect R_C) only, and not in R_L.
+NOTE: The current implementation of the code works correctly in the annulus R<sub>L<sub>e</sub>\L</sub> ∩ R<sub>C</sub> only, and not in R<sub>L</sub>.
 
 The value of the transform W*(s) at s (for positive s) can be computed using the function
 
