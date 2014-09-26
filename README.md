@@ -13,7 +13,7 @@ This paper computes the [Laplace–Stieltjes transform](https://en.wikipedia.org
 Functions in this notebook
 --------------------------
 
-The value of the transform W*(s) at s (for positive s) can be computed using the function
+The value of the transform W*(s) at s (for positive s) can be computed using the function using default parameters ``3,2,0,2,2,1``
 
 ``Wstar[s]``
 
