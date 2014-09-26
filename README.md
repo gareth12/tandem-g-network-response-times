@@ -21,7 +21,7 @@ or parameters for the positive customer arrival rates, negative customer arrival
 
 ``Wstar[s,l1p,l1n,l2p,p2n,m1,m2]``
 
-**NOTE: The current implementation of the code works correctly in the annulus R<sub>L<sub>e</sub>\L</sub> ∩ R<sub>C</sub> only, and not in R<sub>L</sub>.**
+**NOTE: The current implementation of the code works correctly in the [annulus](https://en.wikipedia.org/wiki/Annulus_(mathematics)) R<sub>L<sub>e</sub>\L</sub> ∩ R<sub>C</sub> only, and not in R<sub>L</sub>.**
 
 
 Numerical examples
